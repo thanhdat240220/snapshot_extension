@@ -15,5 +15,5 @@ if (searchParams.get('name') === window.name) {
 
             clearInterval(interval);
         }
-    }, 1000);
+    }, 500);
 }

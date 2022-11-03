@@ -1,0 +1,38 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .popup-container {
+        width: 400px;
+        height: 500px;
+        padding: 10px;
+      }
+      .txh,
+      .url {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="popup-container">
+      <p>Link snapshort</p>
+      <input
+        type="url"
+        class="url"
+        value="https://testnet-explorer.brocha.in/sei/tx/"
+      />
+      <p>Txh:</p>
+      <textarea class="txh" rows="5"></textarea>
+      <button class="snapshot-btn">Snapshort</button>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>

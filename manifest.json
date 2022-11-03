@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Dat",
+    "version": "1.0",
+    "description": "",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/modules/html2canvas.js",
+                "scripts/index.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "action": {
+        "default_title": "Jeff Jack",
+        "default_popup": "scripts/popup.html"
+    }
+}

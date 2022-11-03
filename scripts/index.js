@@ -11,10 +11,6 @@ if (searchParams.get('name') === window.name) {
                 link.setAttribute('href', image);
                 link.setAttribute('download', `${window.name}.jpg`);
                 link.click();
-    
-                setTimeout(() => {
-                    window.close();
-                }, 100);
             });
 
             clearInterval(interval);
